@@ -77,6 +77,7 @@ public class Turma {
             return;
         }
 
+
         else if(getAtiva() == false || destino.ativa == false){
             return;
         } else if(qtdATransferir > 0 && getQtdAluno() >= qtdATransferir
